@@ -15,14 +15,15 @@ This is a simple **Tic-Tac-Toe** game built using **HTML**, **CSS**, and **JavaS
 To run this game on your local machine, follow these steps:
 
 1. **Download or Clone the Repository**:
-   - Clone this repository: `git clone https://github.com/your-username/tic-tac-toe.git`
+   - Clone this repository: [ https://github.com/Sarthak900/PRODIGY_WD_3.git ]
    - Or download the files as a ZIP and extract them.
 
 2. **File Structure**:
    Make sure your project directory has the following files:
-/tic-tac-toe/ ├── index.html ├── styles.css └── script.js
+   
+   /tic-tac-toe/ ├── index.html ├── styles.css └── script.js
 
-3. **Open the Game**:
+4. **Open the Game**:
 - Open the `index.html` file in your browser.
 - The Tic-Tac-Toe game should appear, and you can start playing!
 
