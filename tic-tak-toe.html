@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+
+    <button class="theme-toggle-button" onclick="toggleTheme()">Switch to Dark Mode</button>
+
+    <div class="game-container">
+        <div class="mode-selection">
+            <h1>Tic-Tac-Toe</h1>
+            <label><input type="radio" name="mode" id="vs-player" checked> Player vs Player</label>
+            <label><input type="radio" name="mode" id="vs-computer"> Player vs Computer</label>
+            <select class="difficulty-select" id="difficulty" disabled>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+
+        <div class="game-board">
+            <div class="board">
+                <button class="cell" data-index="0"></button>
+                <button class="cell" data-index="1"></button>
+                <button class="cell" data-index="2"></button>
+                <button class="cell" data-index="3"></button>
+                <button class="cell" data-index="4"></button>
+                <button class="cell" data-index="5"></button>
+                <button class="cell" data-index="6"></button>
+                <button class="cell" data-index="7"></button>
+                <button class="cell" data-index="8"></button>
+            </div>
+            <div id="timer">Time left: 30s</div>
+        </div>
+
+        <button class="button" id="restart-btn">Restart Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
